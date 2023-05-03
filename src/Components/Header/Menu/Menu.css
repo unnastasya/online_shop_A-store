@@ -1,0 +1,51 @@
+.menu {
+	background-color: #000;
+	padding: 0 30px;
+	min-height: 100vh;
+}
+
+.menu__icon-cross {
+	position: absolute;
+	right: 0;
+}
+
+.menu__links {
+	padding-bottom: 100px;
+}
+
+.menu__link {
+	text-decoration: none;
+}
+
+.menu__text {
+	text-decoration: none;
+	font-family: "Montserrat";
+	margin: 10px;
+}
+
+.menu__text_white {
+	color: #fff;
+	font-family: "Montserrat";
+}
+
+.menu__icons {
+	position: absolute;
+	bottom: 0;
+	height: 110px;
+}
+
+.menu__icon {
+	margin: 0 5px;
+}
+
+@media (min-width: 960px) {
+	.menu {
+		width: 30vw;
+	}
+}
+
+@media (max-width: 959px) {
+	.menu {
+		width: 100vw;
+	}
+}

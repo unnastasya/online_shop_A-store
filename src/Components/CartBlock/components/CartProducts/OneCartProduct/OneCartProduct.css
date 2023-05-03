@@ -1,0 +1,247 @@
+.one-cart-product__product-title {
+	font-family: "Montserrat";
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+.one-cart-product__parameter {
+	font-family: "Montserrat";
+	opacity: 0.7;
+	display: block;
+	font-size: 13px;
+}
+
+.one-cart-product {
+	margin: 10px 0;
+}
+
+.one-cart-product__product-link {
+	text-decoration: none;
+	color: #000;
+}
+
+@media (min-width: 1201px) {
+	.one-cart-product {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 560px;
+	}
+	.one-cart-product__photo {
+		width: 70px;
+		height: 70px;
+		border-radius: 10px;
+		object-fit: cover;
+	}
+	.one-cart-product__container {
+		width: 430px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.one-cart-product__info {
+		width: 230px;
+	}
+	.one-cart-product__count {
+		width: 80px;
+	}
+
+	.one-cart-product__price {
+		width: 60px;
+	}
+
+	.one-cart-product__delete {
+		width: 20px;
+	}
+	.one-cart-product__count-block {
+		width: 160px;
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+@media (min-width: 961px) and (max-width: 1200px) {
+	.one-cart-product {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 460px;
+	}
+	.one-cart-product__photo {
+		width: 70px;
+		height: 70px;
+		border-radius: 10px;
+		object-fit: cover;
+	}
+	.one-cart-product__container {
+		width: 330px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.one-cart-product__info {
+		width: 150px;
+	}
+	.one-cart-product__count {
+		width: 80px;
+	}
+
+	.one-cart-product__price {
+		width: 60px;
+	}
+
+	.one-cart-product__delete {
+		width: 20px;
+	}
+	.one-cart-product__count-block {
+		width: 160px;
+		display: flex;
+		justify-content: space-between;
+	}
+}
+@media (max-width: 960px) and (min-width: 641px) {
+	.one-cart-product__count-block {
+		width: 170px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.one-cart-product {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 640px;
+	}
+	.one-cart-product__photo {
+		width: 70px;
+		height: 70px;
+		border-radius: 10px;
+		object-fit: cover;
+	}
+	.one-cart-product__container {
+		width: 490px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.one-cart-product__info {
+		width: 290px;
+	}
+	.one-cart-product__count {
+		width: 80px;
+	}
+
+	.one-cart-product__price {
+		width: 60px;
+	}
+
+	.one-cart-product__delete {
+		width: 20px;
+	}
+}
+@media (max-width: 640px) and (min-width: 481px) {
+	.one-cart-product__count-block {
+		margin-top: 5px;
+		width: 180px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.one-cart-product {
+		width: 95vw;
+		display: flex;
+		align-items: center;
+	}
+	.one-cart-product__photo {
+		width: 70px;
+		height: 70px;
+		border-radius: 10px;
+		margin-right: 10px;
+
+		object-fit: cover;
+	}
+	.one-cart-product__container {
+		width: 480px;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.one-cart-product__info {
+		width: 70vw;
+	}
+	.one-cart-product__count {
+		width: 80px;
+		display: inline-block;
+		margin-right: 30px;
+	}
+
+	.one-cart-product__price {
+		width: 60px;
+		display: inline-block;
+	}
+
+	.one-cart-product__delete {
+		margin-left: 10px;
+		width: 20px;
+	}
+	.one-cart-product__count-block {
+		margin-top: 5px;
+		width: 180px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+}
+
+@media (max-width: 480px) {
+	.one-cart-product__count-block {
+		margin-top: 5px;
+		width: 180px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.one-cart-product {
+		width: 95vw;
+		display: flex;
+		align-items: center;
+	}
+	.one-cart-product__photo {
+		width: 70px;
+		height: 70px;
+		border-radius: 10px;
+		margin-right: 10px;
+
+		object-fit: cover;
+	}
+	.one-cart-product__container {
+		width: 65vw;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.one-cart-product__info {
+		width: 70vw;
+	}
+	.one-cart-product__count {
+		width: 80px;
+		display: inline-block;
+		margin-right: 30px;
+	}
+
+	.one-cart-product__price {
+		width: 60px;
+		display: inline-block;
+	}
+
+	.one-cart-product__delete {
+		margin-left: 10px;
+		width: 20px;
+		position: absolute;
+		right: 2.5vw;
+	}
+	.one-cart-product__count-block {
+		margin-top: 5px;
+		width: 180px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+}

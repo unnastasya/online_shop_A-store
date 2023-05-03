@@ -1,0 +1,133 @@
+.contacts-Page__title {
+	font-family: "Montserrat";
+	line-height: 100%;
+	color: #000;
+}
+
+.contacts-Page__link {
+	text-decoration: underline;
+	color: #000;
+	font-size: 14px;
+}
+
+.contacts-Page__container {
+	width: 100vw;
+	position: relative;
+	right: 2.5vw;
+}
+
+@media (min-width: 1201px) {
+	.contacts-Page {
+		width: 1200px;
+		margin: 0 auto;
+	}
+	.contacts-Page__title {
+		font-size: 110px;
+		margin: 0 0 var(--gap-l);
+	}
+	.contacts-Page__subtitle {
+		font-size: 16px;
+		margin: 15px 10px;
+	}
+	.contacts-Page__link {
+		margin: var(--gap-l) 10px;
+	}
+	.map {
+		width: 760px;
+		height: 350px;
+		margin: var(--gap-3xl) 10px;
+	}
+}
+
+@media (min-width: 961px) and (max-width: 1200px) {
+	.contacts-Page {
+		width: 960px;
+		margin: 0 auto;
+	}
+	.contacts-Page__title {
+		font-size: 115px;
+		margin: 0 0px var(--gap-l);
+	}
+	.contacts-Page__subtitle {
+		font-size: 16px;
+		margin: var(--gap-l) 10px;
+	}
+	.contacts-Page__link {
+		margin: var(--gap-l) 10px;
+	}
+	.map {
+		width: 620px;
+		height: 350px;
+		margin: var(--gap-3xl) 10px;
+	}
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+	.contacts-Page {
+		width: 640px;
+		margin: 0 auto;
+	}
+	.contacts-Page__title {
+		font-size: 115px;
+		margin: 0 0px var(--gap-l);
+	}
+	.contacts-Page__subtitle {
+		font-size: 16px;
+		margin: var(--gap-l) 10px;
+	}
+	.contacts-Page__link {
+		margin: var(--gap-l) 10px;
+	}
+	.map {
+		width: 620px;
+		height: 350px;
+		margin: var(--gap-3xl) 10px;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 640px) {
+	.contacts-Page {
+		width: 95vw;
+		margin: 0 auto;
+	}
+	.contacts-Page__title {
+		font-size: 75px;
+		margin: 0 0px var(--gap-l);
+	}
+	.contacts-Page__subtitle {
+		font-size: 14px;
+		margin: var(--gap-l) 0px;
+	}
+	.contacts-Page__link {
+		margin: var(--gap-l) 0;
+	}
+	.map {
+		width: 95vw;
+		height: 300px;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 480px) {
+	.contacts-Page {
+		width: 95vw;
+		margin: 0 auto;
+	}
+	.contacts-Page__title {
+		font-size: 42px;
+		margin: 0 0px var(--gap-l);
+	}
+	.contacts-Page__subtitle {
+		font-size: 20px;
+		margin: var(--gap-l) 0px;
+	}
+	.contacts-Page__link {
+		font-size: 20px;
+		margin: var(--gap-l) 0;
+	}
+	.map {
+		width: 95vw;
+		height: 95vw;
+		margin: 0 auto;
+	}
+}

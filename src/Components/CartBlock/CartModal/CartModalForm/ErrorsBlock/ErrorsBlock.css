@@ -1,0 +1,6 @@
+.cart-modal__errorsBlock {
+	background: var(--color-dark-text-accent);
+	color: #fff;
+	border-radius: 10px;
+	padding: 20px 10px;
+}

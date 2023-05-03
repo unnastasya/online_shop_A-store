@@ -1,0 +1,11 @@
+.page_content {
+	padding-bottom: 2rem;
+	padding-top: 60px;
+}
+
+.page {
+	width: 95vw;
+	margin: 0 auto;
+	position: relative;
+	min-height: 100vh;
+}

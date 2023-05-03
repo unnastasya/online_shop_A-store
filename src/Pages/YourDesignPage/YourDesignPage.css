@@ -1,0 +1,86 @@
+.yourDesign-Page__subtitle {
+	font-family: "Montserrat";
+	font-size: 20px;
+	line-height: 100%;
+}
+
+.yourDesign-Page__title {
+	margin: 0 10px;
+	font-family: "Montserrat";
+	line-height: 100%;
+	margin-bottom: 20px;
+}
+
+.yourDesign-Page {
+	margin: 0 auto;
+}
+
+.yourDesign-Page__container {
+	width: 100vw;
+	position: relative;
+	right: 2.5vw;
+}
+
+@media (min-width: 1201px) {
+	.yourDesign-Page {
+		width: 1200px;
+	}
+
+	.yourDesign-Page__title {
+		font-size: 110px;
+		margin: 0 10px 20px 10px;
+	}
+	.yourDesign-Page__subtitle {
+		margin: 0 10px 100px 10px;
+	}
+}
+
+@media (max-width: 1200px) and (min-width: 961px) {
+	.yourDesign-Page {
+		width: 960px;
+	}
+	.yourDesign-Page__title {
+		font-size: 115px;
+		margin: 0 10px 20px 10px;
+	}
+	.yourDesign-Page__subtitle {
+		margin: 0 10px 100px 10px;
+	}
+}
+@media (max-width: 960px) and (min-width: 641px) {
+	.yourDesign-Page {
+		width: 640px;
+	}
+	.yourDesign-Page__title {
+		font-size: 115px;
+		margin: 0 10px 20px 10px;
+	}
+	.yourDesign-Page__subtitle {
+		margin: 0 10px 100px 10px;
+	}
+}
+@media (max-width: 640px) and (min-width: 481px) {
+	.yourDesign-Page {
+		width: 100vw;
+	}
+	.yourDesign-Page__title {
+		font-size: 75px;
+		margin: 0 2vw 20px 2vw;
+	}
+	.yourDesign-Page__subtitle {
+		margin: 0 2vw 60px 2vw;
+	}
+}
+
+@media (max-width: 480px) {
+	.yourDesign-Page {
+		width: 100vw;
+	}
+	.yourDesign-Page__title {
+		font-size: 42px;
+		margin: 0 5vw 20px 5vw;
+	}
+	.yourDesign-Page__subtitle {
+		margin: 0 5vw 60px 5vw;
+	}
+}

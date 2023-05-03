@@ -1,0 +1,55 @@
+.cart-icon__addons {
+	font-family: "Montserrat";
+	width: 25px;
+	height: 25px;
+	background-color: #000;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+}
+
+@media (min-width: 1201px) {
+	.cart-icon {
+		position: fixed;
+		top: 100px;
+		right: 50px;
+	}
+}
+
+@media (max-width: 1200px) and (min-width: 961px) {
+	.cart-icon {
+		position: fixed;
+		top: 100px;
+		right: 50px;
+	}
+}
+@media (max-width: 960px) and (min-width: 641px) {
+	.cart-icon {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+	}
+}
+@media (max-width: 640px) and (min-width: 481px) {
+	.cart-icon {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+	}
+}
+
+@media (max-width: 480px) {
+	.cart-icon {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+	}
+}
+
+.icon {
+	transition: 0.5s;
+}
+.icon:hover {
+	transform: scale(1.1);
+}

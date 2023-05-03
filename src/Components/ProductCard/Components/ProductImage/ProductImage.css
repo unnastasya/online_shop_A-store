@@ -1,0 +1,32 @@
+.product-image__photo__active {
+	outline-offset: -2px;
+	outline-width: 2px;
+	outline-style: solid;
+	outline-color: rgba(133, 133, 133, 0.7);
+}
+
+@media (min-width: 641px) {
+	.product-image__block {
+		width: 60px;
+		height: 60px;
+		margin: 5px 5px 0 0;
+	}
+	.product-image__photo {
+		object-fit: cover;
+		width: 60px;
+		height: 60px;
+	}
+}
+
+@media (max-width: 640px) {
+	.product-image__block {
+		width: 40px;
+		height: 40px;
+		margin: 5px 5px 0 0;
+	}
+	.product-image__photo {
+		object-fit: cover;
+		width: 40px;
+		height: 40px;
+	}
+}

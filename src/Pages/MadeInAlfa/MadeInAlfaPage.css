@@ -1,0 +1,85 @@
+.madeInALfa-Page__subtitle {
+	font-family: "Montserrat";
+	font-size: 20px;
+	line-height: 100%;
+}
+.madeInALfa-Page__title {
+	margin: 0 10px;
+	font-family: "Montserrat";
+	line-height: 100%;
+	margin-bottom: 20px;
+}
+
+.madeInALfa-Page {
+	margin: 0 auto;
+}
+
+.madeInALfa-Page__container {
+	width: 100vw;
+	position: relative;
+	right: 2.5vw;
+}
+
+@media (min-width: 1201px) {
+	.madeInALfa-Page {
+		width: 1200px;
+	}
+
+	.madeInALfa-Page__title {
+		font-size: 110px;
+		margin: 0 10px 20px 10px;
+	}
+	.madeInALfa-Page__subtitle {
+		margin: 0 10px 100px 10px;
+	}
+}
+
+@media (max-width: 1200px) and (min-width: 961px) {
+	.madeInALfa-Page {
+		width: 960px;
+	}
+	.madeInALfa-Page__title {
+		font-size: 115px;
+		margin: 0 10px 20px 10px;
+	}
+	.madeInALfa-Page__subtitle {
+		margin: 0 10px 100px 10px;
+	}
+}
+@media (max-width: 960px) and (min-width: 641px) {
+	.madeInALfa-Page {
+		width: 640px;
+	}
+	.madeInALfa-Page__title {
+		font-size: 115px;
+		margin: 0 10px 20px 10px;
+	}
+	.madeInALfa-Page__subtitle {
+		margin: 0 10px 100px 10px;
+	}
+}
+@media (max-width: 640px) and (min-width: 481px) {
+	.madeInALfa-Page {
+		width: 100vw;
+	}
+	.madeInALfa-Page__title {
+		font-size: 75px;
+		margin: 0 2vw 20px 2vw;
+	}
+	.madeInALfa-Page__subtitle {
+		margin: 0 2vw 60px 2vw;
+	}
+}
+
+@media (max-width: 480px) {
+	.madeInALfa-Page {
+		width: 100vw;
+	}
+	.madeInALfa-Page__title {
+		font-size: 42px;
+		margin: 0 5vw 20px 5vw;
+	}
+	.madeInALfa-Page__subtitle {
+		margin: 0 5vw 60px 5vw;
+	}
+}

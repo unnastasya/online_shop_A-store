@@ -1,0 +1,68 @@
+.main-page__text {
+	decoration: none;
+	color: black;
+	display: inline;
+	position: absolute;
+	left: 2.5vw;
+	top: 2.5vw;
+	z-index: 2;
+	font-family: "Montserrat";
+}
+
+.main-page__image-link {
+	background: black;
+	overflow: hidden;
+}
+
+.main-page__image {
+	opacity: 1;
+	transition: opacity 100ms linear;
+	display: block;
+	width: 100%;
+}
+
+.main-page__link:hover .main-page__image-link .main-page__image {
+	opacity: 0.9;
+}
+
+.main-page {
+	position: relative;
+	right: 2.5vw;
+}
+
+@media (min-width: 960px) {
+	.main-page__text {
+		left: 2.5vw;
+	}
+	.main-page {
+		display: flex;
+	}
+	.main-page__image-link {
+		position: relative;
+		display: block;
+	}
+
+	.main-page__image {
+		width: 50vw;
+		display: block;
+		z-index: 1;
+	}
+}
+
+@media (max-width: 959px) {
+	.main-page__text {
+		left: 10px;
+	}
+	.main-page__image-link {
+		width: 100vw;
+		height: 60vh;
+		position: relative;
+		display: inline;
+	}
+	.main-page__image {
+		width: 100vw;
+		height: 60vh;
+		display: block;
+		object-fit: cover;
+	}
+}

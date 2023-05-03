@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap);
+@import "@alfalab/core-components/vars/colors-indigo.css";
+@import "@alfalab/core-components/vars/gaps.css";
+
+* {
+	font-family: "Montserrat";
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+}
+
+.page {
+	margin: 0 auto;
+}

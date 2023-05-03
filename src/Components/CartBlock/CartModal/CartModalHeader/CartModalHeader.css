@@ -1,0 +1,18 @@
+.cart-modal__header__container {
+	position: fixed;
+	z-index: 2;
+	width: 100vw;
+	margin: 0 auto;
+	height: 50px;
+	background: #fff;
+}
+
+.cart-modal__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #fff;
+	width: 95vw;
+	margin: 0 auto;
+	height: 50px;
+}
