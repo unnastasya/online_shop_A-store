@@ -13,22 +13,22 @@ function App() {
 	return (
 		<div data-testid="app">
 			<Routes>
-				<Route path="/" element={<Page children />}>
+				<Route element={<Page children />}>
 					<Route index element={<MainPage />}></Route>
 					<Route
-						path="made-in-alfa"
+						path="/made-in-alfa"
 						element={<MadeInAlfaPage />}
 					></Route>
 					<Route
-						path="your-design"
+						path="/your-design"
 						element={<YourDesignPage />}
 					></Route>
-					<Route path="contacts" element={<ContactsPage />}></Route>
-					<Route path="productCard" element={<ProductCardPage />}>
-						<Route path=":id" element={<ProductCardPage />} />
+					<Route path="/contacts" element={<ContactsPage />}></Route>
+					<Route path="/productCard" element={<ProductCardPage />}>
+						<Route path="/:id" element={<ProductCardPage />} />
 					</Route>
 				</Route>
-				<Route path="cart" element={<CartPage />}></Route>
+				<Route path="/cart" element={<CartPage />}></Route>
 			</Routes>
 		</div>
 	);
