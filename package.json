@@ -2,7 +2,7 @@
   "name": "a-store",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://unnastasya.github.io/online_shop_A-store/#/",
+  "homepage": "https://unnastasya.github.io/online_shop_A-store/#",
   "dependencies": {
     "@alfalab/core-components": "^37.4.0",
     "@alfalab/icons": "^3.136.0",
